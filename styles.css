@@ -9,6 +9,7 @@ body{
     padding: 50px;
 }
 .heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: -20px;
 }
@@ -20,10 +21,17 @@ body{
     text-align: center;
 }
 
-
+.radioButton{
+    width: 30px;
+    height: 30px;
+}
 .button{
-    margin-left: -2px;
-    width: 60px;
+    margin-left: -3px;
+    width: 103px;
+}
+.message{
+    margin-left: -3px;
+    width: 294px;
 }
 
 .score-time{
@@ -35,5 +43,5 @@ body{
 }
 
 .left{
-    margin-left: 150px;
+    margin-left: 30px;
 }

@@ -1,0 +1,39 @@
+body{
+    display:flex; 
+    flex-direction:row; 
+    justify-content:center;
+
+}
+.outer-container{
+    border: 10px solid black;
+    padding: 50px;
+}
+.heading{
+    text-align: center;
+    margin-top: -20px;
+}
+
+#radio-container{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+
+
+.button{
+    margin-left: -2px;
+    width: 60px;
+}
+
+.score-time{
+    width: 50px;
+}
+
+.time-line{
+    display: inline-flex;
+}
+
+.left{
+    margin-left: 150px;
+}

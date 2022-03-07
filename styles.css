@@ -2,7 +2,6 @@ body{
     display:flex; 
     flex-direction:row; 
     justify-content:center;
-
 }
 .outer-container{
     border: 10px solid black;

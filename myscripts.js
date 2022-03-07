@@ -9,7 +9,7 @@ function onLoading(){
   let parent = document.getElementById("radio-container");
   //intialise time
   document.getElementById("time").value=30;
-
+//create radio buttons
   while(n<60){
     let e = document.createElement('input');
     e.setAttribute('type',"radio");

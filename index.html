@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shot The Circle</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
     <script src="myscripts.js" defer></script>
     <div class="outer-container">
-    <div>
-    <h1 tabindex="1" class="heading">Shot The Circle</h1>
-    </div>
-    <div>
-    <p tabindex="2" id="message">Test your skill. How many boxes can you check in 30 seconds?</p>
-    </div>
-    <div class="time-line">
-    <button tabindex="3" class="button" onclick="startGame()">Start Game</button>
-    <button tabindex="4" class="button" onclick="stopGame()">Stop Game</button>
-    <button tabindex="5" class="button" onclick="restartGame()">Restart Game</button>
-    <div class="left">
-    <label tabindex="6" id="timeLabel">Time:</label>
-    <input tabindex="7" id="time" type="text"class="score-time" aria-label="time box"/>
-    </div>
-    </div>
-    <br><br>
-    <div class="time-line">
-    <input tabindex="8" class="center message" value="Push Start to Play" readonly/>
-    <div class="left">
-    <label tabindex="9" >Score:</label>
-    <input tabindex="10" id="score" type="text" class="score-time" aria-label="score box" readonly value=0 />
-    </div>
-    </div>
-    <hr>
-    <div tabindex="11" id="radio-container" aria-label="Radio Buttons"></div>
-    <hr>
-    <div tabindex="12" id="result-container" aria-label="Result Display Area"></div>
+        <div>
+            <h1 tabindex="1" class="heading">Shot The Circle</h1>
+        </div>
+        <div>
+            <p tabindex="2" id="message">
+                Test your skill. How many boxes can you check in 30 seconds?
+            </p>
+        </div>
+        <div class="time-line">
+            <button tabindex="3" class="button" onclick="startGame()">
+                Start Game
+            </button>
+            <button tabindex="4" id="stopBtn" class="button" onclick="stopGame()">
+                Stop Game
+            </button>
+            <button tabindex="5" class="button" onclick="restartGame()">
+                Restart Game
+            </button>
+            <div class="left">
+                <label tabindex="6" id="timeLabel">Time:</label>
+                <input tabindex="7" id="time" type="text" class="score-time" aria-label="time box" />
+            </div>
+        </div>
+        <br /><br />
+        <div class="time-line">
+            <input tabindex="8" class="center message" value="Push Start to Play" readonly />
+            <div class="left">
+                <label tabindex="9">Score:</label>
+                <input tabindex="10" id="score" type="text" class="score-time" aria-label="score box" readonly
+                    value="0" />
+            </div>
+        </div>
+        <hr />
+        <div tabindex="11" id="radio-container" aria-label="Radio Buttons"></div>
+        <hr />
+        <div tabindex="12" id="result-container" aria-label="Result Display Area"></div>
     </div>
 </body>
+
 </html>

@@ -25,12 +25,12 @@ body{
     height: 30px;
 }
 .button{
-    margin-left: -3px;
+    margin-left: -1px;
     width: 103px;
 }
 .message{
-    margin-left: -3px;
-    width: 294px;
+    margin-left: -1px;
+    width: 298px;
 }
 
 .score-time{
